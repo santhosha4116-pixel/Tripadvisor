@@ -1,0 +1,625 @@
+*{
+
+   font-family: "Poppins", sans-serif;
+   padding: 0;
+}
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    
+}
+.navbar__companyname{
+
+}
+.navbar__companyname img{
+    width: 200px;
+
+}
+.navbar__menu{
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    align-items: center;
+
+}
+.navbar__menu p:hover{
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 50px;
+}
+.navbar__menu a{
+    background-color: #002b11;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 50px;
+}
+.search{
+   text-align: center;
+   color: #002b11;
+   justify-content: center;
+  
+
+}
+.search h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+   
+    
+}
+.search__categories{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #002b11;
+
+}
+.search__categories p:hover{
+    border-bottom: black solid 2px;
+}
+.search__bar{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 5px;
+    background-color: #f7f7f7;
+    border: black solid 1px;
+    border-radius: 50px;
+    margin-left: 200px;
+    margin-right:  200px;
+    justify-content: space-around;
+}
+.search__bar a {
+    background-color: #00e357;
+    padding-bottom: 5px ;
+    padding-top: 5px ;
+    padding-left:10px ;
+    padding-right: 10px;
+    border-radius: 50px;
+    border: black solid 1px;
+
+}
+.search__bar input{
+    width: 80%;
+    border: none;
+    background:none;
+}
+.search__bar input:focus{
+    outline: none;
+}
+.navbar02{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#161107;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.navbar02__headline{
+    gap: 10px;
+    width: 600px;
+    text-align: center; 
+
+}
+.navbar02__headline h1{
+    line-height: 50px;
+    padding: 10px;
+    font-size: 60px;
+    color: white;
+}
+.navbar02__headline h5{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom:10px ;
+    color: white;
+}
+.navbar02__headline a{
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #ffc56f;
+    border-radius: 50px;
+    font-weight: 500;
+
+
+}
+.navbar02__image{
+    
+
+}
+.navbar02__image img {
+    width: 500px;
+}
+.headline{
+
+}
+.typecard{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.typecard__01{
+    height: 340px;
+    
+
+}
+.typecard__01 img{
+    width: 290px;
+    border-radius: 10px;
+    
+}
+.typecard__01 img:hover{
+    background-color: white; 
+    width: 290px;
+    height: 290;
+    opacity: 0.5;
+}
+.typecard__01 h1{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+    
+}
+.Placecard{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    anchor-name: --Placecard;
+    
+}
+.Placecard::-webkit-scrollbar{
+    display: none;
+}
+.Placecard::scroll-button(right){
+    content: '>';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --Placecard;
+    position-area: right center;
+    translate: -50%;
+
+}
+.Placecard::scroll-button(left)  {
+    content: '<';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --Placecard;
+    position-area: left center;
+    translate: 50%;
+
+}
+.Placecard::scroll-button(left):disabled ,  .Placecard::scroll-button(right):disabled{
+    opacity: 0.5;
+
+}
+.placecard__01{
+    width: 290px;
+    line-height: 25px;
+    
+}
+.placecard__01 img:hover{
+    background-color: white; 
+    width: 290px;
+    height: 290;
+    opacity: 0.5;
+}
+.placecard__01 img {
+    width: 290px;
+    border-radius: 10px;
+    
+}
+
+
+
+.placecard__01 h3{
+    margin-bottom: 0;
+}
+
+.placecard__01 p{
+    margin-top: 5px;
+    margin-bottom: 0;
+
+
+}
+.para {
+    margin-top: 5px;
+    font-weight: 500;
+
+}
+.donation{
+    display: flex;
+    justify-content: space-around; 
+    background-color: #f7f7f7;
+
+}
+.donation img{
+    margin: 10px;
+}
+.donation__paragram{
+    text-align: center;
+    width: 400px;
+
+}
+.donation__paragram a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: #002b11;
+    color: white;
+}
+.headling{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.headling img{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.headling h6{
+    font-weight: 300;  
+    font-size: 15px;  
+    margin: 0;
+    height: fit-content;
+}
+.insprition{
+ 
+
+}
+.inspritioncard{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    anchor-name: --inspritioncard;
+}
+.inspritioncard::-webkit-scrollbar{
+    display: none;
+}
+.inspritioncard::scroll-button(right){
+    content: '>';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --inspritioncard;
+    position-area: right center;
+    translate: -50%;
+
+}
+.inspritioncard::scroll-button(left)  {
+    content: '<';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --inspritioncard;
+    position-area: left center;
+    translate: 50%;
+
+}
+.inspritioncard::scroll-button(left):disabled ,  .inspritioncard::scroll-button(right):disabled{
+    opacity: 0.5;
+
+}
+.inspritioncard__01{
+    width: 390px;
+    text-align: center;
+}
+.inspritioncard__01 img:hover{
+    background-color: white; 
+
+    opacity: 0.5;
+}
+
+.inspritioncard__01 img{
+    width: 390px;
+    border-radius: 10px;
+    
+}
+.Placecard02 {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    anchor-name: --Placecard02;
+}
+.Placecard02::-webkit-scrollbar{
+    display: none;
+}
+.Placecard02::scroll-button(right){
+    content: '>';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --Placecard02;
+    position-area: right center;
+    translate: -50%;
+
+}
+.Placecard02::scroll-button(left)  {
+    content: '<';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --Placecard02;
+    position-area: left center;
+    translate: 50%;
+
+}
+.Placecard02::scroll-button(left):disabled ,  .Placecard02::scroll-button(right):disabled{
+    opacity: 0.5;
+
+}
+.placecard02__01 img:hover{
+    background-color: white; 
+
+    opacity: 0.5;
+}
+.placecard02__01  {
+    width: 290px;
+    line-height: 25px;
+
+}
+.placecard02__01 img{
+        width: 290px;
+    border-radius: 10px;
+
+}
+.placecard02__01 h3{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.placecard02__01 p{
+    margin-top: 5px;
+    margin-bottom: 0;
+
+
+}
+.mini {
+    font-size: 12px;
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.para {
+    margin-top: 5px;
+    font-weight: 500;
+
+}
+.headline{
+
+}
+.typecard02{
+   display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 10px;
+    scroll-behavior: smooth;
+    anchor-name: --typecard02;
+}
+.typecard02::-webkit-scrollbar{
+    display: none;
+}
+.typecard02::scroll-button(right){
+    content: '>';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --typecard02;
+    position-area: right center;
+    translate: -50%;
+
+}
+.typecard02::scroll-button(left)  {
+    content: '<';
+    border: black solid 1px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    position: fixed;
+    position-anchor: --typecard02;
+    position-area: left center;
+    translate: 50%;
+
+}
+.typecard02::scroll-button(left):disabled ,  .typecard02::scroll-button(right):disabled{
+    opacity: 0.5;
+
+}
+.typecard02__01 img:hover{
+    background-color: white; 
+
+    opacity: 0.5;
+}
+.typecard02__01{
+    height: 340px;
+}
+.typecard02__01 img{
+    width: 290px;
+    border-radius: 10px;
+}
+.typecard02__01 h1{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+    
+}
+.donation02 {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #f7f7f7;
+    align-items: center;
+ 
+}
+.donation02 img{
+    margin: 10px;
+    width: 600px;
+}
+
+
+.donation02__paragram{
+    text-align: center;
+    width: 400px;
+
+}
+.donation02__paragram a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    background-color: #002b11;
+    color: white;
+    margin-top: 10px;
+    
+}
+.headling02{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.headling02 img{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+.headling02 h6{
+    font-weight: 300;  
+    font-size: 15px;  
+    margin: 0;
+    height: fit-content;
+}
+.donation02__paragram  h2 {
+    font-size: 35px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.donation02__paragram p{
+    margin-top: 0;
+}
+#travelchoice{
+    background-color: #161107;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+#travelchoice img{
+    width: 75px;
+}
+
+#travelchoice__heading{
+    color: white;
+    width: 40% ;
+    margin-left: 20px;
+
+}
+#travelchoice__heading h1{
+    font-size: 50px;
+}
+#travelchoice__heading h5 {
+    font-size: 22px;
+}
+#picture img{
+    width: 500px;
+}
+#travelchoice__heading a{
+    background-color: #ffc56f;
+    padding: 10px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 500;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+
+}
+.bottom__01{
+
+}
+.bottom__02{
+
+}
+.bottom__03{
+
+}
+.bottom__04{
+
+}
