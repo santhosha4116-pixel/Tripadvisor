@@ -27,11 +27,14 @@ body{
     gap: 20px;
     font-weight: 600;
     align-items: center;
+}
+.navbar__menu p{
+   padding: 10px;
 
 }
 .navbar__menu p:hover{
     background-color: #f7f7f7;
-    padding: 10px;
+    
     border-radius: 50px;
 }
 .navbar__menu a{
@@ -65,6 +68,9 @@ body{
     font-weight: bold;
     color: #002b11;
 
+}
+.search__categories p{
+    border-bottom: white solid 2px;
 }
 .search__categories p:hover{
     border-bottom: black solid 2px;
